@@ -1,0 +1,140 @@
+body{
+    background-color: #ffffff;
+    margin: 0 5%;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.list{
+    display: flex;
+    list-style-type: none;
+    font-family: "orbitron";
+    font-weight: 500;
+}
+
+
+.list-item{
+    margin-right: 30px;
+}
+
+li:first-child{
+    text-decoration: underline;
+}
+
+.button-group{
+    display: flex;
+}
+.search-icon{
+    margin-right: 10px;
+}
+
+img[alt="brand-logo"] {
+    width: 100px;
+}
+
+
+.hero-container{
+    display: flex;
+}
+
+.square img{
+width: 200px;
+z-index: -1;
+margin-top: 200px;
+margin-left: 180px;
+}
+
+img[alt="person-hero-iamge"] {
+    width: 300px;
+    position: absolute;
+    left: 100px;
+}
+
+.globe img{
+    width: 40px;
+    position: absolute;
+    right: 600px;
+    bottom: 380px;
+}
+
+.star img{
+    width: 30px;
+    position: absolute; 
+    top: 450px;
+    right: 700px;
+}
+
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.nav-button{
+padding: 5px 40px;
+font-family: "poppins";
+background-color: transparent;
+border-radius: 10px;
+font-weight: 400;
+font-size: 16px;
+cursor: pointer;
+}
+
+.hero-heading{
+    font-family: "orbitron";
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.hero-description{
+    font-family: "poppins"; 
+    font-weight: 300;
+    font-size: 10px;
+    width: 450px;
+    text-align: center;
+}
+
+.button-email{
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-family: "orbitron";
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.button-join{
+    background-color: black;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-family: "orbitron";
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.contact-heading{
+    text-align: center;
+    font-family: "poppins"; 
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-top: 50px;
+
+}
+
+.icons img{
+    width: 30px;
+}
+
